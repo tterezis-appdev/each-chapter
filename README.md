@@ -1,80 +1,19 @@
 # Ruby Practice
 
-Run your Ruby file by typing `ruby ` and then the name of the file you want to run in the Terminal.
+ 1. Open a file (e.g. `each_spell_word.rb`) in the editor window.
+ 1. Modify the file per the instructions on top.
+ 1. Run your Ruby file by typing `ruby ` and then the name of the file you want to run in the terminal. If we want to run `each_spell_word.rb`, we can write the command:
 
-If we want to run `each_even_word.rb`, we can write the command:
+      ```bash
+      ruby each_spell_word.rb
+      ```
+   
+      Remember, if there are multiple files with similar names, start typing the name and then just press <kbd>Tab</kbd> on your keyboard to let the terminal complete the name. You rarely need to type full filenames out — use **tab completion**!
 
-```bash
-ruby each_even_word.rb
-```
+1. To re-run this command, you can use the <kbd>Up ↑</kbd> and <kbd>Down ↓</kbd> arrow keys to look at the history of commands you've run in a terminal.
+1. When you think you have the required output, run `rails grade` and proceed when the test passes without errors.
 
-To re-run this command, you can use the UP and DOWN arrow keys to look at the history of commands you've run in a Terminal.
-
-## Each
-
-### each_spell_word.rb
-Write a program that:
-
-Asks your user to enter any word and have it spelled out letter by letter.  
-
-Input
-`Georgia`
-
-Output
-```bash
-"G"
-"E"
-"O"
-"R"
-"G"
-"I"
-"A"
-```
-
-Example
-```bash
-"Enter a word for me to spell:"
-Georgia
-"G"
-"E"
-"O"
-"R"
-"G"
-"I"
-"A"
-```
-
-### each_even_word.rb
-Write a program that:
-  Asks the user to enter a list of words separated by spaces.
-  The program should only print the words that are have an even number of characters
-
-Example (`mountain pink vines` is the input)
-```bash
-"Enter a list of words separated by spaces:"
-mountain pink vines
-"mountain"
-"pink"
-```
-
-### each_letter_count.rb
-
-Write a program that:
- 
- Asks the user to enter a word.
-  The program should print each letter in the word the number of times it appears in the word.
-
-Example input: `loop`
-
-Output:
-```bash
-"Enter a word"
-loop
-l appears 1 times
-o appears 2 times
-o appears 2 times
-p appears 1 times
-```
+If you are struggling, **try to experiment directly in the IRB environment** by typing `irb` into the terminal and pressing enter. This will start an interactive Ruby terminal, where you can enter individual lines of Ruby to see their output. If you start `irb` then the terminal will no longer be in the `bash` environment so things like `rails grade` won't work. You will need to open a second terminal with the plus (+) icon and switch between the `irb` and `bash` terminals as needed. Alternatively type `exit` at the IRB terminal prompt to return to the `bash` environment.
 
 ## Specs
 <details>
