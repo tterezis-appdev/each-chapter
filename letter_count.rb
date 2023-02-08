@@ -14,3 +14,12 @@
 #   p appears 1 times
 
 p "Enter a word:"
+
+
+# ~~~~~ Specs (make it do these things) ~~~~~
+#
+# letter_count.rb prints the letters and number of times the letters appear for the word 'levee' 
+#
+# letter_count.rb prints the letters and number of times the letters appear for the word 'loop' 
+#
+# ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~

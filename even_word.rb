@@ -13,3 +13,12 @@
 #   "pink" 
 
 p "Enter a list of words separated by spaces:"
+
+
+# ~~~~~ Specs (make it do these things) ~~~~~
+#
+# even_word.rb prints the 'mountain' and 'pink' when the input is 'mountain pink vines' 
+# 
+# even_word.rb prints nothing when the input is 'odd numbers squad'
+#
+# ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
