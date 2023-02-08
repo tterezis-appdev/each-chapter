@@ -2,7 +2,7 @@
 # 
 # Asks the user to enter a list of words 
 # separated by spaces. The program should 
-# only print the words that are have an even 
+# only print the words that have an even 
 # number of characters
 #
 # Example (`mountain pink vines` is the input):

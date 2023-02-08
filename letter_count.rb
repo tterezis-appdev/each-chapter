@@ -12,6 +12,11 @@
 #   o appears 2 times
 #   o appears 2 times
 #   p appears 1 times
+#
+# (Hint: Recall, .split("") will separate a String into an 
+#  Array of characters, and .count(<character>) will count
+#  the number of occurrences of a given character in
+#  a String)
 
 p "Enter a word:"
 

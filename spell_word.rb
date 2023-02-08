@@ -14,6 +14,9 @@
 #   "G"
 #   "I"
 #   "A"
+#
+# (Hint: Recall, .split("") will separate a String into an 
+#  Array of characters)
 
 p "Enter a word for me to spell:"
 
@@ -22,6 +25,6 @@ p "Enter a word for me to spell:"
 #
 # spell_word.rb spells 'Georgia' correctly 
 # 
-# spell_word.rb spells 'Supercalifragilisticexpialidocious' correctly 
+# spell_word.rb spells 'Super' correctly 
 #
 # ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
